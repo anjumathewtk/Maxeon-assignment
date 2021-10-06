@@ -1,0 +1,109 @@
+.chat {
+  padding-left: 90%;
+  padding-top: 3%;
+}
+.Chat-ico {
+  background-color: aliceblue;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border: none;
+}
+.btn-close:hover {
+  color: black;
+}
+.chat-icon {
+  height: 30px;
+}
+.dropdown-menu.show {
+  margin-right: 18%;
+  margin-bottom: 10px;
+  padding: 1%;
+  width: 350px;
+}
+.btn-secondary:hover {
+  background-color: aliceblue;
+  border-color: aliceblue;
+  box-shadow: none;
+}
+@media (max-width: 991px) {
+  .chat {
+    padding-left: 80% !important;
+  }
+}
+
+/* Chat confirm */
+.Chat-confirm-header {
+  background-color: #758ac5;
+  padding: 20px;
+  margin-top: 10px !important;
+  color: aliceblue;
+  border-radius: 4px;
+}
+
+.Chat-confirm-header p {
+  font-size: 12px;
+}
+.Chat-confirm-body {
+  padding-left: 10%;
+  padding-bottom: 5%;
+  margin-top: 15%;
+}
+.Chat-confirm-body h4 {
+  font-weight: 700;
+  font-size: 14px;
+  padding-top: 30px;
+}
+.Chat-confirm-body p {
+  font-size: 12px;
+  padding-top: 2px;
+}
+.btn-chat {
+  font-size: 12px;
+  border-radius: 30px;
+  background-color: #13a88a;
+  margin-bottom: 5%;
+}
+.Send-ico {
+  height: 10px;
+  padding-left: 2px;
+}
+/* Chat area */
+.Chat-area-confirm-header {
+  background-color: #758ac5;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 2px;
+  color: aliceblue;
+  border-radius: 4px;
+}
+.Chat-area-confirm-header h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.Chat-area-confirm-header p {
+  font-size: 11px;
+}
+.type {
+  margin-top: 5%;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #758ac5;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
